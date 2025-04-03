@@ -1,1 +1,35 @@
-/* место для вашего кода */
+body {
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1100px;
+    max-height: 3028px;
+    font-family: ;
+}
+
+.content-section {
+    box-sizing: border-box;
+    width: 1100px;
+    min-height: 100px;
+    margin: auto;
+
+}
+
+ .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+ } 
+
+.header_logo-images {
+    
+    width: 129px;
+    height: 104px;
+    padding: 1.16px;
+}
+
+header-logo {
+    width: 148px;
+    height: 114px;
+    
+    
+}

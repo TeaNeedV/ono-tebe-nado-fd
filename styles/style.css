@@ -9,7 +9,6 @@ body {
 .content-section {
   box-sizing: border-box;
   width: 1100px;
-  min-height: 100px;
   margin: auto;
 }
 

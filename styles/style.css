@@ -204,14 +204,14 @@ body {
   z-index: 2;
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-thickness: 1px; 
+  text-decoration-thickness: 1px;
 }
 
 .content-section-about {
   padding-top: 120lpx;
   padding-left: 24px;
   padding-right: 24px;
-  padding-bottom: 180px; 
+  padding-bottom: 180px;
 }
 
 .tel {
@@ -360,7 +360,7 @@ body {
 .footer_menu {
   width: 188px;
   display: flex;
-  text-align: center; 
+  text-align: center;
 }
 
 .footer_links-list {
@@ -376,7 +376,7 @@ body {
   align-items: center;
   list-style: none;
   font-size: 18px;
-  font-style: normal; 
+  font-style: normal;
 } 
 
 .footer__social-list {

@@ -19,7 +19,7 @@ body {
   align-items: center;
   font-weight: 400;
   font-size: 18px;
-  padding-top: 88px;
+  padding-top: 18px;
   padding-left: 50px;
   padding-bottom: 98px;
   padding-right: 50px;
@@ -328,6 +328,9 @@ body {
 }
 
 .address {
+  overflow-x:hidden;
+  width: 340px;
+  height: auto;
   padding-left: 51px;
   padding-bottom: 82px;
   display: grid;

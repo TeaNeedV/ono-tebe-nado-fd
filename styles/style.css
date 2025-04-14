@@ -15,7 +15,7 @@ body {
 .header {
   height: auto;
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 2fr min-content 2fr;
   align-items: center;
   font-weight: 400;
   font-size: 18px;
@@ -29,6 +29,7 @@ body {
   display: flex;
   gap: 7px;
   align-items: center;
+  padding-top: 75px;
 }
 
 .header_menu_link {
@@ -53,7 +54,7 @@ body {
   list-style: none;
 }
 
-.header_menu_link_no-under {
+.menu_link_no-under {
   text-decoration: none;
 }
 
@@ -67,32 +68,12 @@ body {
   grid-column: auto;
   width: 135px;
   height: 101px;
+  padding-top: 38px;
 }
 
 .header_logo_images {
   width: 135px;
   height: 98px;
-}
-
-.address {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  justify-self: end;
-  font-style: normal;
-  line-height: 1.33;
-  padding-right: 37px;
-  color: rgba(0, 0, 0, 1);
-}
-
-.address-list-decor {
-  text-decoration: underline;
-  text-underline-offset: 17%;
-}
-
-.adress-tel {
-  text-decoration: underline;
-  text-underline-offset: 18%;
 }
 
 .cover {
@@ -342,11 +323,11 @@ body {
   padding-top: 180px;
   padding-right: 50px;
   display: flex;
-  gap: 169px;
+  gap: 154px;
   align-items: start;
 }
 
-.footer-adress {
+address {
   width: 340px;
   height: auto;
   padding-left: 51px;
@@ -356,6 +337,7 @@ body {
   font-size: 18px;
   font-style: normal;
   line-height: 1.33;
+  text-underline-offset: 4px;
 }
 
 .footer_menu {
@@ -395,4 +377,8 @@ body {
 
 .footer_links-list-item {
   text-underline-offset: 4px;
+}
+
+.r {
+  transform: translate3d(143px, 80px, 10px);
 }

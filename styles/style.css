@@ -152,6 +152,7 @@
   text-transform: uppercase;
   align-items: center;
   color: #ffffff;
+  
 }
 
 .cover__description-text {
@@ -286,8 +287,8 @@
   padding-left: 47px;
   display: grid;
   justify-items: center;
-  grid-template-columns: 287px 678px;
-  gap: 49px;
+  grid-template-columns: 288px 688px;
+  gap: 48px;
 }
 
 .about__logo {
@@ -308,9 +309,12 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  padding-top: 98px;
+  padding-top: 100px;
   font-size: 20px;
   gap: 27px;
+  text-align: start;
+  
+  
 }
 
 .about__title {
@@ -321,7 +325,7 @@
 }
 
 .footer {
-  padding-top: 180px;
+  padding-top: 177px;
   padding-right: 50px;
   display: flex;
   gap: 154px;
@@ -332,7 +336,7 @@
   width: 340px;
   height: auto;
   padding-left: 51px;
-  padding-bottom: 82px;
+  padding-bottom: 81px;
   display: grid;
   justify-content: left;
   font-size: 18px;
@@ -381,5 +385,5 @@
 }
 
 .r {
-  transform: translate3d(142px, 80px, 10px);
+  transform: translate3d(142px, 79px, 10px);
 }

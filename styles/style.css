@@ -327,9 +327,7 @@ body {
   align-items: start;
 }
 
-address {
-  width: 340px;
-  height: auto;
+.address {
   padding-left: 51px;
   padding-bottom: 82px;
   display: grid;

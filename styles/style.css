@@ -1,10 +1,10 @@
 
-body {
+.body {
   width: 1100px;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   margin: auto;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .content-section {
@@ -23,7 +23,7 @@ body {
   padding-top: 18px;
   padding-left: 50px;
   padding-bottom: 98px;
-  padding-right: 50px;
+  padding-right: 52px;
 }
 
 .header-menu {
@@ -342,7 +342,7 @@ body {
 }
 
 .footer_menu {
-  width: 188px;
+  width: 190px;
   display: flex;
   text-align: center;
 }
@@ -381,5 +381,5 @@ body {
 }
 
 .r {
-  transform: translate3d(143px, 80px, 10px);
+  transform: translate3d(142px, 80px, 10px);
 }

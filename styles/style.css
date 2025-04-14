@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   margin: auto;
+  overflow-x:hidden;
 }
 
 .content-section {
@@ -192,7 +193,7 @@ body {
 }
 
 .content-section-about {
-  padding-top: 120lpx;
+  padding-top: 120px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 180px;
@@ -328,7 +329,6 @@ body {
 }
 
 .address {
-  overflow-x:hidden;
   width: 340px;
   height: auto;
   padding-left: 51px;

@@ -1,16 +1,9 @@
-
-.body {
+body {
   width: 1100px;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   margin: auto;
   overflow-x: hidden;
-}
-
-.content-section {
-  box-sizing: border-box;
-  width: 1100px;
-  margin: auto;
 }
 
 .header {
@@ -20,7 +13,7 @@
   align-items: center;
   font-weight: 400;
   font-size: 18px;
-  padding-top: 18px;
+  padding-top: 87px;
   padding-left: 50px;
   padding-bottom: 98px;
   padding-right: 52px;
@@ -30,7 +23,7 @@
   display: flex;
   gap: 7px;
   align-items: center;
-  padding-top: 75px;
+  padding-top: 8px;
 }
 
 .header_menu_link {
@@ -51,12 +44,13 @@
   font-stretch: expanded;
 }
 
-.header_links-list-item_no-bullit {
+.link_active {
+  text-decoration: none;
   list-style: none;
 }
 
-.menu_link_no-under {
-  text-decoration: none;
+.header__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .header_link {
@@ -69,7 +63,7 @@
   grid-column: auto;
   width: 135px;
   height: 101px;
-  padding-top: 38px;
+  padding-top: 3px;
 }
 
 .header_logo_images {
@@ -325,30 +319,28 @@
 }
 
 .footer {
-  padding-top: 177px;
+  padding-top: 179px;
   padding-right: 50px;
+  padding-bottom: 82px;
   display: flex;
-  gap: 154px;
+  gap: 161px;
   align-items: start;
 }
 
 .address {
-  width: 340px;
-  height: auto;
-  padding-left: 51px;
-  padding-bottom: 81px;
-  display: grid;
-  justify-content: left;
-  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
   font-style: normal;
-  line-height: 1.33;
-  text-underline-offset: 4px;
+  font-size: 18px;
+  text-underline-offset: 3px;
 }
 
 .footer_menu {
-  width: 190px;
+  width: 225px;
   display: flex;
   text-align: center;
+  padding-left: 3px;
 }
 
 .footer_links-list {
@@ -384,6 +376,20 @@
   text-underline-offset: 4px;
 }
 
-.r {
-  transform: translate3d(142px, 79px, 10px);
+.header_address-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: end;
+  padding-top: 10px;
+  padding-left: 190px;
+  padding-right: 34px;
+}
+
+.footer-address_location {
+  padding-left: 51px;
+}
+
+.menu_link_no-under { 
+  text-decoration: none; 
 }
